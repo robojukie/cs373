@@ -1,7 +1,5 @@
 FILES :=              \
     Hello             \
-    UnitTests1        \
-    UnitTests2        \
     UnitTesst3        \
     Coverage1         \
     Coverage2         \
