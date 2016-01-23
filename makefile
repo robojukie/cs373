@@ -18,9 +18,17 @@ pull:
 	@rsync -r -t -u -v --delete             \
     --include "Hello.py"                    \
     --include "Assertions.py"               \
+    --include "UnitTests1.py"               \
+    --include "UnitTests2.py"               \
+    --include "UnitTests3.py"               \
+    --include "Coverage1.py"                \
+    --include "Coverage2.py"                \
+    --include "Coverage3.py"                \
     --exclude "*"                           \
     ../../examples/python/ examples
 	@rsync -r -t -u -v --delete             \
+    --include "IsPrime1.py"                 \
+    --include "IsPrime1T.py"                \
     --exclude "*"                           \
     ../../exercises/python/ exercises
 
