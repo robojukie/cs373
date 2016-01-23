@@ -1,6 +1,11 @@
 FILES :=              \
     Hello             \
-    Assertions
+    UnitTests1        \
+    UnitTests2        \
+    UnitTesst3        \
+    Coverage1         \
+    Coverage2         \
+    Coverage3
 
 %.pyx: %.py
 	./$<

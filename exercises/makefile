@@ -1,4 +1,5 @@
-FILES :=
+FILES := \
+    IsPrime1T
 
 %.pyx: %.py
 	./$<
