@@ -25,6 +25,9 @@ pull:
     --include "Coverage2.py"                \
     --include "Coverage3.py"                \
     --include "Exceptions.py"               \
+    --include "StackVsHeap.py"              \
+    --include "Exceptions.py"               \
+    --include "Operators.py"                \
     --exclude "*"                           \
     ../../examples/python/ examples
 	@rsync -r -t -u -v --delete             \
@@ -34,6 +37,7 @@ pull:
     --include "IsPrime2T.py"                \
     --include "Factorial.py"                \
     --include "FactorialT.py"               \
+    --include "ReduceT.py"                  \
     --exclude "*"                           \
     ../../exercises/python/ exercises
 

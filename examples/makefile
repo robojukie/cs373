@@ -4,7 +4,10 @@ FILES :=              \
     Coverage1         \
     Coverage2         \
     Coverage3         \
-    Exceptions
+    Exceptions        \
+    StackVsHeap       \
+    Types             \
+    Operators
 
 %.pyx: %.py
 	./$<

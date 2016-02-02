@@ -62,7 +62,6 @@ class MyUnitTests (TestCase) :
                 print(f.__name__)
                 t = timeit(f.__name__ + "(100)", "from __main__ import " + f.__name__, number = 1000)
                 print("{:.2f} milliseconds".format(t * 1000))
-                print()
 
 if __name__ == "__main__" :
     main()
@@ -71,31 +70,25 @@ if __name__ == "__main__" :
 % FactorialT.py
 ......
 factorial_recursion
-21.63 milliseconds
-
+20.35 milliseconds
 
 factorial_tail_recursion
-37.02 milliseconds
-
+29.85 milliseconds
 
 factorial_while
-13.65 milliseconds
-
+14.40 milliseconds
 
 factorial_range_for
-8.24 milliseconds
-
+7.72 milliseconds
 
 factorial_range_reduce
-8.67 milliseconds
-
+8.89 milliseconds
 
 factorial
-0.95 milliseconds
-
+0.90 milliseconds
 .
 ----------------------------------------------------------------------
-Ran 7 tests in 0.097s
+Ran 7 tests in 0.087s
 
 OK
 """

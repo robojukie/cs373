@@ -1,6 +1,7 @@
-FILES :=      \
-    IsPrime1T \
-    IsPrime2T
+FILES :=       \
+    IsPrime1T  \
+    IsPrime2T  \
+    FactorialT
 
 %.pyx: %.py
 	./$<
