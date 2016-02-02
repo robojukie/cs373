@@ -5,7 +5,6 @@ FILES :=              \
     Coverage2         \
     Coverage3         \
     Exceptions        \
-    StackVsHeap       \
     Types             \
     Operators
 
