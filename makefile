@@ -27,6 +27,7 @@ pull:
     --include "Exceptions.py"               \
     --include "StackVsHeap.py"              \
     --include "Exceptions.py"               \
+    --include "Types.py"                    \
     --include "Operators.py"                \
     --exclude "*"                           \
     ../../examples/python/ examples
