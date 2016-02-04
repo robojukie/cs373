@@ -29,6 +29,8 @@ pull:
     --include "Exceptions.py"               \
     --include "Types.py"                    \
     --include "Operators.py"                \
+    --include "Variables.py"                \
+    --include "Iteration.py"                \
     --exclude "*"                           \
     ../../examples/python/ examples
 	@rsync -r -t -u -v --delete             \

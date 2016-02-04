@@ -6,7 +6,9 @@ FILES :=              \
     Coverage3         \
     Exceptions        \
     Types             \
-    Operators
+    Operators         \
+    Variables         \
+    Iteration
 
 %.pyx: %.py
 	./$<
